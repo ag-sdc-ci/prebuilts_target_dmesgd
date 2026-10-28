@@ -1,0 +1,6 @@
+shadow prebuilt repo: dmesgd (target)
+  upstream: https://android.googlesource.com/platform/system/dmesgd
+  api-level: 34 (branch 34-20261028)
+  blobs: org.blisslabs.ag.dmesgd.apex
+  payload: flattened root include/, lib64/ + modernized Android.bp
+  date: 2026-10-28

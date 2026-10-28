@@ -1,0 +1,20 @@
+// Auto-generated prebuilt APEX Blueprint for system/dmesgd
+// Staged from APEX package: dmesgd (org.blisslabs.ag.dmesgd)
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+prebuilt_apex {
+    name: "org.blisslabs.ag.dmesgd",
+    apex_name: "dmesgd",
+    source_apex_name: "dmesgd",
+    arch: {
+        x86_64: {
+            src: "org.blisslabs.ag.dmesgd.apex",
+        },
+    },
+    filename: "org.blisslabs.ag.dmesgd.apex",
+    prefer: true,
+    installable: true,
+}
